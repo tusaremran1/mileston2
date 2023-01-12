@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive</title>
+    <style>
+        .cover{
+            background-image:  url(images/forist.jpg);
+            background-position: center;
+            height: 800px;
+            width: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position:relative;
+        }
+        .continer{
+           display: grid; 
+           grid-template-columns: repeat(3, 1fr);
+           gap: 20px;
+           margin-top: 300px;
+        }
+        .plase{
+            border: 2px solid salmon;
+            border-radius: 10px;
+            padding: 15px;
+        }
+        .plase img{
+            width: 100%;
+            height: 300px;
+        }
+        @media screen and (max-width: 576px) {
+            .continer{
+                grid-template-columns: repeat(1, 1fr);
+            }
+            .plase{
+                background-color: aquamarine;
+               
+            
+            }
+        }
+        @media screen and (min-width: 576px) and (max-width: 992px) {
+            .continer{
+                grid-template-columns: repeat(2, 1fr);
+            }           
+            .plase{
+                background-color: bisque;
+             
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="cover">
+        <div class="text">
+            <h2>Wellcome to Adventure of World</h2>
+            <p class="dis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quibusdam illum, non voluptatum praesentium excepturi?</p>
+        </div>
+    </div>
+    
+    <div class="continer">
+    
+        <div class="plase">
+            <img src="images/eiffel-tower.jpg" alt="">
+            <h2>Eiffel Tower</h2>
+            <h4>price: 10000</h4>
+            <p class="dis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis blanditiis commodi a explicabo, odit accusantium. Eum voluptatem officiis error autem nulla cum adipisci cupiditate culpa. Impedit facere ipsum praesentium ipsam.</p>
+            <button>Join Now</button>
+        </div>
+        <div class="plase">
+            <img src="images/forist.jpg" alt="">
+            <h2>Irland</h2>
+            <h4>price: 20000</h4>
+            <p class="dis">Voluptas, non. Minus maxime nobis obcaecati quas pariatur quo perspiciatis, doloribus numquam quibusdam nostrum tempora ex enim saepe repellat, rerum asperiores, odio quae voluptatibus nesciunt ullam fugiat ut architecto! Quas!</p>
+            <button>Join Now</button>
+        </div>
+        <div class="plase">
+            <img src="images/ityle.jpg" alt="">
+            <h2>Ityle</h2>
+            <h4>price: 30000</h4>
+            <p class="dis">Nemo vero obcaecati dolor voluptates. Praesentium, iste provident nam adipisci omnis, perferendis optio quos laudantium eum dolorum ea amet. Excepturi nisi odit corporis at totam reiciendis tenetur temporibus ducimus pariatur.</p>
+            <button>Join Now</button>
+        </div>
+        <div class="plase">
+            <img src="images/su1.jpg" alt="">
+            <h2>switzerland</h2>
+            <h4>price: 40000</h4>
+            <p class="dis">Impedit inventore neque officia? Officia adipisci rem voluptatem iste? Qui animi quaerat asperiores sit culpa corporis nam dolores quod! Perferendis consequatur vitae rerum cum aspernatur possimus maiores officia fugiat laborum.</p>
+            <button>Join Now</button>
+        </div>
+        <div class="plase">
+            <img src="images/sw2.jpg" alt="">
+            <h2>switzerland</h2>
+            <h4>price: 50000</h4>
+            <p class="dis">Quasi, architecto maxime soluta iure libero nesciunt voluptatum, molestias non et numquam nihil vero dignissimos itaque magni nemo cum ipsum sapiente veniam nam. Iure, qui rem! Harum modi possimus temporibus?</p>
+            <button>Join Now</button>
+        </div>
+        <div class="plase">
+            <img src="images/sw3.jpg" alt="">
+            <h2>switzerland</h2>
+            <h4>price: 60000</h4>
+            <p class="dis">Suscipit ipsa, amet commodi excepturi expedita, voluptas adipisci, et dolorem facilis vitae perspiciatis maiores reiciendis. Fugit, deserunt eligendi delectus nostrum, eaque modi, rem maiores explicabo illo mollitia sapiente perspiciatis consequatur?</p>
+            <button>Join Now</button>
+        </div>
+        <div class="plase">
+            <img src="images/sono.jpg" alt="">
+            <h2>switzerland</h2>
+            <h4>price: 70000</h4>
+            <p class="dis">Esse expedita, consectetur earum unde molestiae corrupti repellat magnam impedit dolore et harum adipisci quaerat magni, voluptatibus, necessitatibus voluptatem quo? Animi rerum vel magni unde provident facilis adipisci debitis. Labore!</p>
+            <button>Join Now</button>
+        </div>
+        <div class="plase">
+            <img src="images/sw4.jpg" alt="">
+            <h2>switzerland</h2>
+            <h4>price: 80000</h4>
+            <p class="dis">Reprehenderit pariatur earum iure dolores provident maxime, recusandae eum obcaecati impedit expedita similique enim mollitia magni non delectus saepe est, veniam, dolorum laboriosam ratione error nulla eveniet nemo placeat? Quibusdam.</p>
+            <button>Join Now</button>
+        </div>
+    </div>
+</body>
+</html>
